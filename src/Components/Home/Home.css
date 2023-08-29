@@ -1,0 +1,110 @@
+/* Home.css */
+.home-container {
+    background-color: #7fa5f2; /* Light blue background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #f0f5ff; /* Light blue text */
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.description {
+    line-height: 1.6;
+}
+
+/* Navigation links */
+.nav-pills .nav-link.active {
+    background-color: #333; /* Dark gray background for active link */
+    color: #7fa5f2; /* Light blue text for active link */
+}
+
+/* Social media icons */
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item ion-icon {
+    font-size: 40px;
+    color: #7fa5f2; /* Light blue color */
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-item ion-icon:hover {
+    color: #f0f5ff; /* Light blue color on hover */
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .profile-image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .nav-item ion-icon {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-image img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 19px;
+    }
+
+    .nav-item ion-icon {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 992px) {
+    .profile-image img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .title {
+        font-size: 23px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .nav-item ion-icon {
+        font-size: 37px;
+    }
+}

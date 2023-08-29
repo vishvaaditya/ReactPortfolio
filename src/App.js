@@ -1,25 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+//This class component is imported to index.js
 
-export default App;
+// class Web2 extends React.Component{
+//   render(){
+//     return <h1>Are you ready for the journey of learning react</h1>
+//   }
+// }
+
+// export default Web2;
