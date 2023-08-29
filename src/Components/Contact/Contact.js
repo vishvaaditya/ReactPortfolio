@@ -45,7 +45,7 @@ class Contact extends Component {
                         <div className="project-container">
                             <div className="row">
                                 <div className="col-sm-4">
-                                    <div className="profile-image" style={{marginLeft:"650px"}} >
+                                    <div className="profile-image">
                                         <img src='https://media.licdn.com/dms/image/D5603AQGxVvXw0DO3Yw/profile-displayphoto-shrink_400_400/0/1673576050739?e=1698883200&v=beta&t=X_8A7T7WlGa82fLfYEdNuSq2U8BqTplcTWiocFbFx9A'
                                             className="rounded-circle mx-auto d-block"
                                             alt='My Image'
