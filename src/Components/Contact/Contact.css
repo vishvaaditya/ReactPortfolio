@@ -1,0 +1,100 @@
+/* Contact.css */
+
+/* Styles for the profile image */
+.project-container {
+    background-color: #7fa5f2; /* Light blue background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #f0f5ff; /* Light blue text */
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 5px solid #fff;
+}
+
+/* Styles for the feedback form */
+.mail {
+    background-color: #7fa5f2; /* Light blue background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skills {
+    color: #fff;
+    font-size: 18px;
+}
+
+.form-textarea {
+    background-color: #fff; /* White background for textarea */
+    color: #333; /* Dark text color */
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+/* Styles for the submit button */
+#submit-button {
+    background-color: #28a745; /* Green button color */
+    border-color: #28a745;
+    color: #fff; /* White text color */
+}
+
+#submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .profile-image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .skills {
+        font-size: 16px;
+    }
+
+    .form-textarea {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-image img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .skills {
+        font-size: 17px;
+    }
+
+    .form-textarea {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .profile-image img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .skills {
+        font-size: 18px;
+    }
+
+    .form-textarea {
+        font-size: 16px;
+    }
+}
