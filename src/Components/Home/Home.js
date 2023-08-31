@@ -181,7 +181,7 @@ class Home extends React.Component{
 
                              <li class="nav-item" style={{marginRight: "40px", marginLeft: "40px",fontSize:"40px"}}>
                                 <a href="https://www.linkedin.com/in/vishva-aditya-r-t-8885751b0/">
-                                <ion-icon name="logo-instagram" ></ion-icon>
+                                <ion-icon name="logo-instagram" >Instagram</ion-icon>
                                </a>
                              </li>
                              <br/>

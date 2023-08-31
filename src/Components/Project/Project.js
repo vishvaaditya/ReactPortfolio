@@ -96,7 +96,7 @@ const Project = () => {
                     </li>
                     <li className="nav-item" style={{ marginRight: "40px", marginLeft: "40px", fontSize: "40px" }}>
                         <NavLink to="https://instagram.com/vishva_aditya?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" className="nav-link">
-                            <ion-icon name="logo-instagram"></ion-icon>
+                            <ion-icon name="logo-instagram">Instagram</ion-icon>
                         </NavLink>
                     </li>
                 </ul>
